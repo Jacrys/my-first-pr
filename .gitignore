@@ -1,0 +1,17 @@
+node_modules
+.vscode
+bin/*
+!bin/.gitkeep
+obj/
+!obj/.gitkeep
+wwwroot/lib/fontawesome/dist/css/*
+wwwroot/lib/fontawesome/dist/js/*
+wwwroot/lib/fontawesome/dist/webfonts/*
+wwwroot/lib/syncfusion/dist/css/*
+wwwroot/lib/syncfusion/dist/js/*
+!wwwroot/lib/fontawesome/dist/css/.gitkeep
+!wwwroot/lib/fontawesome/dist/js/.gitkeep
+!wwwroot/lib/fontawesome/dist/webfonts/.gitkeep
+!wwwroot/lib/syncfusion/dist/css/.gitkeep
+!wwwroot/lib/syncfusion/dist/js/.gitkeep
+codealike.json

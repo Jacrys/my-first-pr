@@ -9,4 +9,11 @@
   <ItemGroup>
   </ItemGroup>
 
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="17.3.0.14" />
+    <PackageReference Include="Syncfusion.EJ2.JavaScript" Version="17.3.0.14" />
+    <PackageReference Include="Syncfusion.Licensing" Version="17.3.0.14" />
+  </ItemGroup>
+
 </Project>

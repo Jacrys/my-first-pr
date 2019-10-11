@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - my_first_pr</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/syncfusion/dist/css/material.css" />
+    <link rel="stylesheet" href="~/lib/syncfusion/dist/css/button-material-dark.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome/dist/css/brands.min.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome/dist/css/duotone.min.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome/dist/css/fontawesome.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+<script>
+    
+</script>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -40,10 +48,15 @@
             &copy; 2019 - my_first_pr - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
-
+    
+    <script src="~/lib/syncfusion/dist/js/ej2.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+     <ejs-scripts></ejs-scripts>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/fontawesome/dist/js/brands.min.js" ></script>
+    <script src="~/lib/fontawesome/dist/js/duotone.min.js" ></script>
+    <script src="~/lib/fontawesome/dist/js/fontawesome.min.js" ></script>
 
     @RenderSection("Scripts", required: false)
 </body>

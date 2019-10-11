@@ -5,6 +5,32 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+  <h1 class="display-4">Welcome</h1>
+  <div class="e-btn-group">
+    <ejs-button id="first-issues" content="Good First Issues" data='FIRST_ISSUES'></ejs-button>
+    <ejs-button id="easy-issues" content="Easy Issues" data='EASY_ISSUES'></ejs-button>
+    <ejs-button id="hacktoberfest-issues" content="Hacktoberfest Issues" data='HACKTOBERFEST_ISSUES' iconcss='fad fa-jack-o-lantern hacktoberfest'></ejs-button>
+    <ejs-button id="hacktoberfest-first-issues" content="Hacktoberfest Good First Issues" data='HACKTOBERFEST_FIRST_ISSUES' iconcss='fad fa-jack-o-lantern hacktoberfest'></ejs-button>
+    <ejs-button id="hacktoberfest-easy-issues" content="Hacktoberfest Easy Issues" data='HACKTOBERFEST_EASY_ISSUES' iconcss='fad fa-jack-o-lantern hacktoberfest'></ejs-button>
+    <ejs-button id="ms-issues" content="General Microsoft Issues" data='MS_ISSUES'></ejs-button>
+    <ejs-button id="ms-first-issues" content="Microsoft Good First Issues" data='MS_FIRST_ISSUES'></ejs-button>
+    <ejs-button id="ms-hacktoberfest-issues" content="Microsoft Hacktoberfest Issues" data='MS_HACKTOBERFEST_ISSUES' iconcss='fad fa-jack-o-lantern hacktoberfest'></ejs-button>
+    <ejs-button id="ms-hacktoberfest-first-issues" content="Microsoft Hacktoberfest Good First Issues" data='MS_HACKTOBERFEST_FIRST_ISSUES' iconcss='fad fa-jack-o-lantern hacktoberfest'></ejs-button>
+  </div>
+  <ejs-chiplist id="chip-avatar" click="chipclick" selection="Single">
+    <e-chips>
+      <e-chip text="Good First Issues" enabled="true" customData='FIRST_ISSUES'></e-chip>
+      <e-chip text="Easy Issues" enabled="true" data='EASY_ISSUES'></e-chip>
+      <e-chip text="Hacktoberfest Issues" enabled="true" data='HACKTOBERFEST_ISSUES' trailingiconcss='fad fa-jack-o-lantern hacktoberfest'></e-chip>
+      <e-chip text="Hacktoberfest Good First Issues" enabled="true" data='HACKTOBERFEST_FIRST_ISSUES' trailingiconcss='fad fa-jack-o-lantern hacktoberfest'></e-chip>
+      <e-chip text="Hacktoberfest Easy Issues" enabled="true" data='HACKTOBERFEST_EASY_ISSUES' trailingiconcss='fad fa-jack-o-lantern hacktoberfest'></e-chip>
+      <e-chip leadingiconcss='fab fa-microsoft ms' text="General Microsoft Issues"                  enabled="true" data='MS_ISSUES'></e-chip>
+      <e-chip leadingiconcss='fab fa-microsoft ms' text="Microsoft Good First Issues"               enabled="true" data='MS_FIRST_ISSUES'></e-chip>
+      <e-chip leadingiconcss='fab fa-microsoft ms' text="Microsoft Hacktoberfest Issues"            enabled="true" data='MS_HACKTOBERFEST_ISSUES' trailingiconcss='fad fa-jack-o-lantern hacktoberfest'></e-chip>
+      <e-chip leadingiconcss='fab fa-microsoft ms' text="Microsoft Hacktoberfest Good First Issues" enabled="true" data='MS_HACKTOBERFEST_FIRST_ISSUES' trailingiconcss='fad fa-jack-o-lantern hacktoberfest'></e-chip>
+    </e-chips>
+  </ejs-chiplist>
+  <ejs-grid id="Grid">
+
+  </ejs-grid>
 </div>
